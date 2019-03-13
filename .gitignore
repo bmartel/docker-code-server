@@ -1,0 +1,9 @@
+ide/*
+config/*
+config/nginx/proxy-confs/*.conf
+config/nginx/*.pem
+config/dns-conf/*.ini
+!ide/data
+!config/dns-conf
+!config/nginx
+.env
