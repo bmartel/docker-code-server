@@ -21,6 +21,7 @@ services:
     env_file: .env
     volumes:
       - ./ide:/root/project
+      - ~/.ssh:/root/.ssh
       - yarn_data:/usr/local/share/.config/yarn/global
     ports:
       - 8443
