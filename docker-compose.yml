@@ -21,6 +21,10 @@ services:
     env_file: .env
     volumes:
       - ./ide:/root/project
+      - yarn_data:/usr/local/share/.config/yarn/global
     ports:
       - 8443
     restart: unless-stopped
+
+volumes:
+  yarn_data:
