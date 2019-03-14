@@ -3,6 +3,8 @@ config/*
 config/nginx/proxy-confs/*.conf
 config/nginx/*.pem
 config/dns-conf/*.ini
+fonts/*
+!fonts/.keep
 !ide/data
 !config/dns-conf
 !config/nginx
